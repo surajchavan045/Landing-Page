@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vh 10vw;
+    height: 12vh;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+.main {
+    background-color: #1f2937;
+    height: 88vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 10vh;
+}
+
+.main-text{
+    font-weight: 850;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.main-left button {
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 2vh;
+}
+
+.main img {
+    width: 80vh;
+}
+
+.random-info-para {
+    text-align: center;
+}
+
+.random-info-para {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.child {
+    width: 200px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882f6;
+}
+
+.main-footer {
+    background-color: #E5E7EB;
+    font-size: 26px;
+    padding: 18vh 25vh;
+    margin-top: 40px;
+}
+.main-footer-text {
+    color: #1f2937;
+    font-size: 35px;
+    font-style: italic;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.main-footer-para {
+    font-weight: bold;
+    display: flex;
+    margin-left: 470px;
+}
+
+.footer {
+    background-color: #3882f6;
+    padding: 8vh 15vh;
+    margin: 100px;
+    display: flex;
+}
+
+.footer-text {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-para {
+    color: #E5E7EB;
+}
+
+.footer button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #E5E7EB;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 2vh;
+    margin-left: 300px;
+}
+
+.copyright {
+    background-color: #1f2937;
+    padding: 4vh 7vh;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
