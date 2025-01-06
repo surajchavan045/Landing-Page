@@ -27,7 +27,7 @@ body {
 .header-links a {
     color: #e5e7eb;
     text-decoration: none;
-    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 .main {
@@ -62,6 +62,7 @@ body {
 }
 
 .main img {
+    height: 50vh;
     width: 80vh;
 }
 
